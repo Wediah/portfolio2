@@ -4,6 +4,7 @@ import Navbar from '../components/Nav'
 import styles from '../styles/Home.module.css'
 import About from './about'
 import Landing from './Landing'
+import Portfolio from './portfolio'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Navbar/>
         <Landing/>
         <About/>
+        <Portfolio />
       </main>
 
     </div>
