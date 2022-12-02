@@ -3,12 +3,8 @@ import { Transition } from '@headlessui/react'
 import { Link } from "react-scroll"
 import Image from "next/image";
 import { Element } from 'react-scroll'
-import { ZenDots} from '@next/font/google'
 
-const Zen_Dots = ZenDots ({
-    weight: '400',
-    subsets: ['latin'],
-})
+
 
 
 function Landing () {
