@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import About from './about'
 import Landing from './Landing'
 import Portfolio from './portfolio'
+import Skill from './skill'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <main>
         <Navbar/>
         <Landing/>
+        <Skill/>
         <About/>
         <Portfolio />
       </main>
