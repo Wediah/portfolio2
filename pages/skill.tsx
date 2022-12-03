@@ -4,6 +4,7 @@ import { Link } from "react-scroll"
 import Image from "next/image";
 import { Element } from 'react-scroll'
 import {HiCodeBracket} from 'react-icons/hi2'
+import {MdWeb} from 'react-icons/md'
 import css from '../assets/css.svg'
 import bootstrap from '../assets/bootstrap.svg'
 import git from '../assets/git.svg'
@@ -14,6 +15,9 @@ import next from '../assets/nextjs.svg'
 import react from '../assets/react.svg'
 import tailwind from '../assets/tailwind.svg'
 import typescript from '../assets/typescript.svg'
+import figma from '../assets/figma.svg'
+import photo from '../assets/photo.svg'
+import xd from '../assets/xd.svg'
 
 function Skill() {
     return (
@@ -21,21 +25,46 @@ function Skill() {
             <div className="in-h-screen px-10 ">
             <h4 className="text-4xl font-bold pt-40 text-center">Skills</h4>
             <h3 className="text-md font-light  text-center">What I can do</h3>
-            <div className="gap-10 lg:flex pt-10">
-                <div>
-                    <span className="flex text-md font-bold text-center"> <HiCodeBracket className="text-2xl mr-2"/>   
-                    Frontend Development</span>
-                    <div className="flex flex-wrap gap-10">
-                       <div> <Image src={html} width={50} alt=""/> </div>
-                       <div> <Image src={css} width={50} alt=""/></div>
-                       <div> <Image src={javascript}width={50}  alt=""/></div>
-                       <div> <Image src={typescript} width={50} alt=""/></div>
-                       <div><Image src={jquery} width={50} alt=""/></div>
-                       <div><Image src={tailwind} width={50} alt=""/></div>
-                       <div><Image src={react} width={50} alt=""/></div>
-                       <div><Image src={bootstrap} width={50} alt=""/></div>
-                       <div><Image src={next} width={50} height={100} alt=""/></div>
-                       <div><Image src={git}  alt=""/></div> 
+            <div className="gap-10 md:flex  pt-10">
+                <div  className="p-10 my-10">
+                    <div className="flex text-md font-bold text-center"> <HiCodeBracket className="text-2xl mr-2 text-center"/>   
+                    Frontend Development</div>
+                    <div className="flex flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap">
+                       <div className="text-center"> 
+                        <Image src={html} width={50} alt=""  className="pb-2"/> 
+                        <span className="text-md font-serif font-bold">HTML</span> <br />
+                        <span className="text-sm text-gray-500">Advanced</span>
+                        </div>
+                       <div className="text-center"> <Image src={css} width={50} alt="" className="pb-2" /><span className="text-md font-serif font-bold">CSS</span> <br />
+                        <span className="text-sm text-gray-500">Advanced</span> </div>
+                       <div className="text-center"> <Image src={javascript}width={50}  alt="" className="pb-3"/> <span className="text-md font-serif font-bold">JavaScript</span> <br />
+                        <span className="text-sm text-gray-500">Intermediate</span></div>
+                       <div> <Image src={typescript} width={50} alt="" className="pb-2"/><span className="text-md font-serif font-bold">TypeScript</span> <br />
+                        <span className="text-sm text-gray-500">Basic</span></div>
+                       <div className="text-center"> <Image src={jquery} width={50} alt="" className="pb-2"/><span className="text-md font-serif font-bold">JQuery</span> <br />
+                        <span className="text-sm text-gray-500">Basic</span> </div>
+                       <div className="text-center"> <Image src={tailwind} width={50} alt="" className="pb-7"/><span className="text-md font-serif font-bold">Tailwindcss</span> <br />
+                        <span className="text-sm text-gray-500">Intermediate</span> </div>
+                       <div className="text-center"> <Image src={react} width={50} alt="" className="pb-3"/><span className="text-md font-serif font-bold">Reat</span> <br />
+                        <span className="text-sm text-gray-500">Basic</span> </div>
+                       <div className="text-center"> <Image src={bootstrap} width={50} height={100} alt="" className="pb-4"/><span className="text-md font-serif font-bold">Bootstrap</span> <br />
+                        <span className="text-sm text-gray-500">Basic</span> </div>
+                       <div className="text-center"> <Image src={next} width={50} height={100} alt="" className="pb-12"/><span className="text-md font-serif font-bold">Next.js</span> <br />
+                        <span className="text-sm text-gray-500">Intermediate</span> </div> 
+                       <div className="text-center"> <Image src={git} width={50} height={100}  alt="" className="pb-2"/><span className="text-md font-serif font-bold">Git</span> <br />
+                        <span className="text-sm text-gray-500">Intermediate</span> </div>
+                    </div>
+                </div>
+                <div className="p-10 my-10">
+                    <div className="flex text-md font-bold"> <MdWeb className="text-2xl mr-2"/>   
+                    UX Design</div>
+                    <div className="flex flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap">
+                       <div className="text-center"> <Image src={figma} width={50} alt="" className="pb-2"/><span className="text-md font-serif font-bold">Figma</span> <br />
+                        <span className="text-sm text-gray-500">Basic</span>  </div>
+                       <div className="text-center"> <Image src={xd} width={50} alt="" className="pb-8"/><span className="text-md font-serif font-bold">Adobe XD</span> <br />
+                        <span className="text-sm text-gray-500">Basic</span> </div>
+                       <div className="text-center"> <Image src={photo} width={50}  alt="" className="pb-8"/><span className="text-md font-serif font-bold">Adobe Photoshop</span> <br />
+                        <span className="text-sm text-gray-500">Basic</span> </div>
                     </div>
                 </div>
             </div>
