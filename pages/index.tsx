@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/Nav'
 import styles from '../styles/Home.module.css'
-import About from './about'
+import Services from './Services'
 import Landing from './Landing'
 import Portfolio from './portfolio'
 import Skill from './skill'
@@ -20,7 +20,7 @@ export default function Home() {
         <Navbar/>
         <Landing/>
         <Skill/>
-        <About/>
+        <Services/>
         <Portfolio />
       </main>
 

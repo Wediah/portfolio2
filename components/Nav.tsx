@@ -24,6 +24,36 @@ function Navbar () {
                             <div className="ml-10 flex items-baseline space-x-4">
                                 
                                 <Link
+                                    activeClass="home"
+                                    to="home"
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium"
+                                >
+                                    Home
+                                </Link>
+                                <Link
+                                    activeClass="skill"
+                                    to="skill"
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium"
+                                >
+                                    Skills
+                                </Link>
+                                <Link
+                                    activeClass="services"
+                                    to="services"
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium"
+                                >
+                                    Services
+                                </Link>
+                                <Link
                                     activeClass="portfolio"
                                     to="portfolio"
                                     smooth={true}
@@ -119,7 +149,41 @@ function Navbar () {
                         <div
                             ref={ref}
                             className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3"
-                        >
+                        >   
+                            
+                            <Link
+                                href="/home"
+                                activeClass="home"
+                                to="home"
+                                smooth={true}
+                                offset={50}
+                                duration={500}
+                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center"
+                            >
+                                Home
+                            </Link>
+                            <Link
+                                href="/skill"
+                                activeClass="skill"
+                                to="skill"
+                                smooth={true}
+                                offset={50}
+                                duration={500}
+                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center"
+                            >
+                                Skills
+                            </Link>
+                            <Link
+                                href="/services"
+                                activeClass="services"
+                                to="services"
+                                smooth={true}
+                                offset={50}
+                                duration={500}
+                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center"
+                            >
+                                Services
+                            </Link>
                             <Link
                                 href="/portfolio"
                                 activeClass="portfolio"

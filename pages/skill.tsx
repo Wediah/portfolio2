@@ -24,46 +24,46 @@ function Skill() {
         <Element id="skill" name="skill">
             <div className="in-h-screen px-10 ">
             <h4 className="text-4xl font-bold pt-40 text-center">Skills</h4>
-            <h3 className="text-md font-light  text-center">What I can do</h3>
-            <div className="gap-10 md:flex  pt-10">
-                <div  className="p-10 my-10">
-                    <div className="flex text-md font-bold text-center"> <HiCodeBracket className="text-2xl mr-2 text-center"/>   
+            <h3 className="text-md font-light  text-center ">What I can do</h3>
+            <div className="gap-10 lg:flex">
+                <div  className="p-10  my-10 lg:w-3/5">
+                    <div className="flex justify-center  text-md font-bold pb-5"> <HiCodeBracket className="text-2xl mr-2"/>   
                     Frontend Development</div>
-                    <div className="flex flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap">
+                    <div className="flex justify-center flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap">
                        <div className="text-center"> 
-                        <Image src={html} width={50} alt=""  className="pb-2"/> 
+                        <Image src={html} width={50} alt=""  className="pb-2 hover:animate-bounce"/> 
                         <span className="text-md font-serif font-bold">HTML</span> <br />
                         <span className="text-sm text-gray-500">Advanced</span>
                         </div>
-                       <div className="text-center"> <Image src={css} width={50} alt="" className="pb-2" /><span className="text-md font-serif font-bold">CSS</span> <br />
+                       <div className="text-center"> <Image src={css} width={50} alt="" className="pb-2 hover:animate-bounce" /><span className="text-md font-serif font-bold">CSS</span> <br />
                         <span className="text-sm text-gray-500">Advanced</span> </div>
-                       <div className="text-center"> <Image src={javascript}width={50}  alt="" className="pb-3"/> <span className="text-md font-serif font-bold">JavaScript</span> <br />
+                       <div className="text-center"> <Image src={javascript}width={50}  alt="" className="pb-3 hover:animate-bounce"/> <span className="text-md font-serif font-bold">JavaScript</span> <br />
                         <span className="text-sm text-gray-500">Intermediate</span></div>
-                       <div> <Image src={typescript} width={50} alt="" className="pb-2"/><span className="text-md font-serif font-bold">TypeScript</span> <br />
+                       <div> <Image src={typescript} width={50} alt="" className="pb-2 hover:animate-bounce"/><span className="text-md font-serif font-bold">TypeScript</span> <br />
                         <span className="text-sm text-gray-500">Basic</span></div>
-                       <div className="text-center"> <Image src={jquery} width={50} alt="" className="pb-2"/><span className="text-md font-serif font-bold">JQuery</span> <br />
+                       <div className="text-center"> <Image src={jquery} width={50} alt="" className="pb-2 hover:animate-bounce"/><span className="text-md font-serif font-bold">JQuery</span> <br />
                         <span className="text-sm text-gray-500">Basic</span> </div>
-                       <div className="text-center"> <Image src={tailwind} width={50} alt="" className="pb-7"/><span className="text-md font-serif font-bold">Tailwindcss</span> <br />
+                       <div className="text-center"> <Image src={tailwind} width={50} alt="" className="pb-7 hover:animate-bounce"/><span className="text-md font-serif font-bold">Tailwindcss</span> <br />
                         <span className="text-sm text-gray-500">Intermediate</span> </div>
-                       <div className="text-center"> <Image src={react} width={50} alt="" className="pb-3"/><span className="text-md font-serif font-bold">Reat</span> <br />
+                       <div className="text-center"> <Image src={react} width={50} alt="" className="pb-3 hover:animate-bounce"/><span className="text-md font-serif font-bold">Reat</span> <br />
                         <span className="text-sm text-gray-500">Basic</span> </div>
-                       <div className="text-center"> <Image src={bootstrap} width={50} height={100} alt="" className="pb-4"/><span className="text-md font-serif font-bold">Bootstrap</span> <br />
+                       <div className="text-center"> <Image src={bootstrap} width={50} height={100} alt="" className="pb-4 hover:animate-bounce"/><span className="text-md font-serif font-bold">Bootstrap</span> <br />
                         <span className="text-sm text-gray-500">Basic</span> </div>
-                       <div className="text-center"> <Image src={next} width={50} height={100} alt="" className="pb-12"/><span className="text-md font-serif font-bold">Next.js</span> <br />
+                       <div className="text-center"> <Image src={next} width={50} height={100} alt="" className="pb-12 hover:animate-bounce"/><span className="text-md font-serif font-bold">Next.js</span> <br />
                         <span className="text-sm text-gray-500">Intermediate</span> </div> 
-                       <div className="text-center"> <Image src={git} width={50} height={100}  alt="" className="pb-2"/><span className="text-md font-serif font-bold">Git</span> <br />
+                       <div className="text-center"> <Image src={git} width={50} height={100}  alt="" className="pb-2 hover:animate-bounce"/><span className="text-md font-serif font-bold">Git</span> <br />
                         <span className="text-sm text-gray-500">Intermediate</span> </div>
                     </div>
                 </div>
-                <div className="p-10 my-10">
-                    <div className="flex text-md font-bold"> <MdWeb className="text-2xl mr-2"/>   
+                <div className="p-10 my-10 lg:w-3/5">
+                    <div className="flex justify-center text-md font-bold pb-5"> <MdWeb className="text-2xl mr-2"/>   
                     UX Design</div>
-                    <div className="flex flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap">
-                       <div className="text-center"> <Image src={figma} width={50} alt="" className="pb-2"/><span className="text-md font-serif font-bold">Figma</span> <br />
+                    <div className="flex justify-center flex-wrap gap-10 mt-5 lg:flex-row lg:flex-wrap">
+                       <div className="text-center"> <Image src={figma} width={50} alt="" className="pb-2 hover:animate-bounce"/><span className="text-md font-serif font-bold">Figma</span> <br />
                         <span className="text-sm text-gray-500">Basic</span>  </div>
-                       <div className="text-center"> <Image src={xd} width={50} alt="" className="pb-8"/><span className="text-md font-serif font-bold">Adobe XD</span> <br />
+                       <div className="text-center"> <Image src={xd} width={50} alt="" className="pb-8 hover:animate-bounce"/><span className="text-md font-serif font-bold">Adobe XD</span> <br />
                         <span className="text-sm text-gray-500">Basic</span> </div>
-                       <div className="text-center"> <Image src={photo} width={50}  alt="" className="pb-8"/><span className="text-md font-serif font-bold">Adobe Photoshop</span> <br />
+                       <div className="text-center"> <Image src={photo} width={50}  alt="" className="pb-8 hover:animate-bounce"/><span className="text-md font-serif font-bold">Adobe Photoshop</span> <br />
                         <span className="text-sm text-gray-500">Basic</span> </div>
                     </div>
                 </div>

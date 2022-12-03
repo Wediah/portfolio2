@@ -6,9 +6,9 @@ import { Element } from 'react-scroll'
 import website from "../public/website.png"
 import developer from "../public/developer.png"
 
-function About () {
+function Services () {
     return (
-        <Element id="about" name="about">
+        <Element id="services" name="services">
             <div className="min-h-screen px-10 " >
                 <h4 className="text-4xl font-bold pt-40 text-center">Services</h4>
                 <h3 className="text-md font-light  text-center">What I offer</h3>
@@ -33,4 +33,4 @@ function About () {
     );
 }
 
-export default About;
+export default Services;
