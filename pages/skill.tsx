@@ -4,6 +4,16 @@ import { Link } from "react-scroll"
 import Image from "next/image";
 import { Element } from 'react-scroll'
 import {HiCodeBracket} from 'react-icons/hi2'
+import css from '../assets/css.svg'
+import bootstrap from '../assets/bootstrap.svg'
+import git from '../assets/git.svg'
+import html from '../assets/html.svg'
+import javascript from '../assets/javascript.svg'
+import jquery from '../assets/jquery.svg'
+import next from '../assets/nextjs.svg'
+import react from '../assets/react.svg'
+import tailwind from '../assets/tailwind.svg'
+import typescript from '../assets/typescript.svg'
 
 function Skill() {
     return (
@@ -15,8 +25,17 @@ function Skill() {
                 <div>
                     <span className="flex text-md font-bold text-center"> <HiCodeBracket className="text-2xl mr-2"/>   
                     Frontend Development</span>
-                    <div className="flex flex-wrap">
-                        
+                    <div className="flex flex-wrap gap-10">
+                       <div> <Image src={html} width={50} alt=""/> </div>
+                       <div> <Image src={css} width={50} alt=""/></div>
+                       <div> <Image src={javascript}width={50}  alt=""/></div>
+                       <div> <Image src={typescript} width={50} alt=""/></div>
+                       <div><Image src={jquery} width={50} alt=""/></div>
+                       <div><Image src={tailwind} width={50} alt=""/></div>
+                       <div><Image src={react} width={50} alt=""/></div>
+                       <div><Image src={bootstrap} width={50} alt=""/></div>
+                       <div><Image src={next} width={50} height={100} alt=""/></div>
+                       <div><Image src={git}  alt=""/></div> 
                     </div>
                 </div>
             </div>
