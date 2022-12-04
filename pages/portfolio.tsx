@@ -40,7 +40,7 @@ function Portfolio () {
 
                      <h3 className="font-medium text-2xl">Web</h3>
                      <h3 className="font-medium text-md">Modern Website</h3>
-                     <h3 className="flex text-sm mt-4">View website <AiOutlineArrowRight className="text-xl ml-2"/> </h3>
+                     <a href="https://engec.netlify.app/" ><button className="flex text-sm mt-4 bg-gray-100 p-2 rounded-full">View website <AiOutlineArrowRight className="text-xl ml-2"/> </button></a>
                     </div>
                 </div>
                 
