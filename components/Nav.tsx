@@ -92,10 +92,10 @@ function Navbar () {
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             type="button"
-                            className="bg-cyan-500 inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-cyan-500 focus:ring-white"
+                            className=" inline-flex items-center justify-center p-2 rounded-md text-black  hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-white"
                             aria-controls="mobile-menu"
                             aria-expanded="false"
-                        >
+                        > 
                             <span className="sr-only">Open main menu</span>
                             {!isOpen ? (
                                 <svg
