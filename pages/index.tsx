@@ -6,6 +6,7 @@ import Services from './Services'
 import Landing from './Landing'
 import Portfolio from './portfolio'
 import Skill from './skill'
+import Experience from './Experience'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Skill/>
         <Services/>
         <Portfolio />
+        <Experience />
       </main>
 
     </div>

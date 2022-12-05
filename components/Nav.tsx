@@ -64,14 +64,14 @@ function Navbar () {
                                     Portfolio
                                 </Link>
                                 <Link
-                                    activeClass="about"
-                                    to="about"
+                                    activeClass="experience"
+                                    to="experience"
                                     smooth={true}
                                     offset={50}
                                     duration={500}
                                     className="cursor-pointer  text-black hover:text-cyan-600 px-3 py-2 rounded-md text-sm font-medium"
                                 >
-                                    About
+                                    Experiences
                                 </Link>
 
                                 <Link
@@ -196,15 +196,15 @@ function Navbar () {
                                 Portfolio
                             </Link>
                             <Link
-                                href="/about"
-                                activeClass="about"
-                                to="about"
+                                href="/experience"
+                                activeClass="experience"
+                                to="experience"
                                 smooth={true}
                                 offset={50}
                                 duration={500}
                                 className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center"
                             >
-                                About
+                                Experiences
                             </Link>
 
                             <Link
