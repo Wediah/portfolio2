@@ -7,7 +7,7 @@ import Landing from './Landing'
 import Portfolio from './portfolio'
 import Skill from './skill'
 import Experience from './Experience'
-import Contact from './Contact'
+import Contact from './contact'
 
 export default function Home() {
   return (
