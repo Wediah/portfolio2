@@ -13,14 +13,14 @@ function Services () {
                 <h4 className="text-4xl font-bold pt-40 text-center">Services</h4>
                 <h3 className="text-md font-light  text-center">What I offer</h3>
                 <div className=" gap-10 lg:flex pt-10">
-                    <div className="shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 hover:outline hover:outline-2 hover:outline-gray-500 hover:outline-offset-4 bg-gray-100">
+                    <div className="shadow-2xl rounded-full text-center p-16 my-10 flex-1 hover:outline hover:outline-2 hover:outline-gray-500 hover:outline-offset-4 bg-gray-100">
                         <Image className="mx-auto " src={website} width={100} height={100} alt=""/>
                         
                         <h3 className="pt-8 pb-2 text-2xl font-bold">UX Design</h3>
                         <p className="py-2">I love to create result-oriented user experience. My primary goal is to create simple but rich, engaging and innovative user experiences.</p>
                         
                     </div>
-                    <div className="shadow-2xl rounded-2xl text-center p-10 my-10 flex-1 hover:outline hover:outline-2 hover:outline-gray-500 hover:outline-offset-4 bg-gray-100">
+                    <div className="shadow-2xl rounded-full text-center p-16 my-10 flex-1 hover:outline hover:outline-2 hover:outline-gray-500 hover:outline-offset-4 bg-gray-100">
                         <Image className="mx-auto" src={developer} height={100} width={100} alt=""/>
 
                         <h3 className="pt-8 pb-2 text-2xl font-bold">Front-end Development</h3>
