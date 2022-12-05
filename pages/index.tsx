@@ -7,6 +7,7 @@ import Landing from './Landing'
 import Portfolio from './portfolio'
 import Skill from './skill'
 import Experience from './Experience'
+import Contact from './Contact'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Services/>
         <Portfolio />
         <Experience />
+        <Contact/>
       </main>
 
     </div>
