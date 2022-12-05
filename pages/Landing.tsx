@@ -37,7 +37,7 @@ function Landing () {
 
                 <button type="button" onClick={onButtonClick} className="bg-cyan-500 p-3 rounded-xl font-bold text-white md:hidden">Download my resume</button>
 
-                <h4 className="pt-16 md:pt-32 md:text-lg text-blue-300 font-bold text-sm animate-bounce font-mono">
+                <h4 className="pt-36 md:pt-32 md:text-lg text-blue-300 font-bold text-sm animate-pulse font-mono">
                     there's more scroll down
                 </h4>
             </div>
