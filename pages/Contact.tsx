@@ -2,8 +2,8 @@ import React from "react"
 import { Element } from 'react-scroll'
 import {FaLocationArrow} from 'react-icons/fa'
 import Image from "next/image";
-import location from '../public/navigation.png'
-import mail from '../public/mail.png'
+import location from '../public/cursor.png'
+import mail from '../public/email.png'
 import call from '../public/phone-call.png'
 import {FiGithub, FiInstagram, FiTwitter} from 'react-icons/fi'
 import {AiOutlineLinkedin, AiOutlineWhatsApp} from 'react-icons/ai'
@@ -21,9 +21,9 @@ function Contact () {
                         <Image  
                         src={location}
                         alt=""
-                        width={120}
+                        width={100}
                         height={70}
-                        className="mx-auto rounded-full outline outline-black outline-offset-4 p-10" 
+                        className="mx-auto  outline " 
                         />
                         
                         <h3 className="pt-8 pb-2 text-3xl font-bold">Address</h3>
@@ -33,9 +33,9 @@ function Contact () {
                     <Image  
                         src={mail}
                         alt=""
-                        width={120}
+                        width={100}
                         height={70}
-                        className="mx-auto rounded-full outline outline-black outline-offset-4 p-10" 
+                        className="mx-auto" 
                         />
                         
                         <h3 className="pt-8 pb-2 text-3xl font-bold">Email</h3>
@@ -46,9 +46,9 @@ function Contact () {
                     <Image  
                         src={call}
                         alt=""
-                        width={120}
+                        width={100}
                         height={70}
-                        className="mx-auto rounded-full outline outline-black outline-offset-4 p-10" 
+                        className="mx-auto" 
                         />
                         
                         <h3 className="pt-8 pb-2 text-3xl font-bold">Phone</h3>
@@ -58,11 +58,11 @@ function Contact () {
                 </div>
 
                 <div className="flex text-3xl gap-5 justify-center pt-10">
-                    <AiOutlineLinkedin className="hover:transition hover:-translate-y-2 duration-300 delay-150"/>
-                    <FiGithub className="hover:transition hover:-translate-y-2 duration-300 delay-150"/>
-                    <FiInstagram className="hover:transition hover:-translate-y-2 duration-300 delay-150"/>
-                    <FiTwitter className="hover:transition hover:-translate-y-2 duration-300 delay-150"/>
-                    <AiOutlineWhatsApp className="hover:transition hover:-translate-y-2 duration-300 delay-150"/>
+                    <a href="https://www.linkedin.com/in/wediah-emmanuel-578330230"><AiOutlineLinkedin className="hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
+                    <a href="https://github.com/Wediah"><FiGithub className="hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
+                    <a href="https://www.instagram.com/_wediah/"><FiInstagram className="hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
+                    <a href="https://twitter.com/WediahE"><FiTwitter className="hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
+                    <a href="https://wa.me/message/DGI7R7QWOUTAJ1"><AiOutlineWhatsApp className="hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
                 </div>
                 <div className="text-center pb-5 font-medium text-md">© Copyright Wediah Emmanuel. All rights reserved</div>
 
