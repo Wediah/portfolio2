@@ -24,7 +24,7 @@ function Services () {
                         <Image className="mx-auto" src={developer} height={100} width={100} alt=""/>
 
                         <h3 className="pt-8 pb-2 text-2xl font-bold">Front-end Development</h3>
-                        <p className="py-2 dark:text-gray-200">I'm a meticulus web developer with 6 months of experience in front-end development and passion to build responsive websites which are user freindly.</p>
+                        <p className="py-2 dark:text-gray-200">I&apos;m a meticulus web developer with over 6 months of experience in front-end development and the passion to build responsive websites which are user freindly.</p>
                     </div>
                 </div>
             </div>
