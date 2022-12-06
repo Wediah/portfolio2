@@ -204,7 +204,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
+                                className="cursor-pointer hover:text-cyan-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
                             >
                                 Services
                             </Link>
@@ -215,7 +215,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
+                                className="cursor-pointer hover:text-cyan-500 text-black block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
                             >
                                 Portfolio
                             </Link>
@@ -226,7 +226,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
+                                className="cursor-pointer hover:text-cyan-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
                             >
                                 Experiences
                             </Link>
@@ -238,7 +238,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
+                                className="cursor-pointer bg-cyan-500 hover:bg-black text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
                             >
                                 Contact
                             </Link>
