@@ -8,17 +8,26 @@ import Portfolio from './portfolio'
 import Skill from './skill'
 import Experience from './Experience'
 import Contact from './contact'
+import { useState } from 'react'
+import { ReactDOM } from 'react'
+import { DarkModeSwitch } from 'react-toggle-dark-mode'
 
 export default function Home() {
+  const [isDarkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = (checked: boolean) => {
+    setDarkMode(checked);
+  };
+
   return (
-    <div>
+    <div className={isDarkMode ? "dark" : ""}>
       <Head>
         <title>Emmanuel Wediah</title>
         <meta name="description" content="Emmanuel Wediah" />
         <link rel="icon" href="/IMG_E1721.JPG" />
       </Head>
 
-      <main>
+      <main className='bg-white dark:bg-gray-900'>
         <Navbar/>
         <Landing/>
         <Skill/>

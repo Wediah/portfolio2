@@ -2,14 +2,33 @@ import React, { useState } from "react"
 import { Transition } from '@headlessui/react'
 import { Link } from "react-scroll"
 import Image from "next/image";
+import { BsFillMoonStarsFill } from 'react-icons/bs'
+
+
 
 
 
 
 function Navbar () {
     const [isOpen, setIsOpen] = useState(false);
+
+
+    const onButtonClick = () => {
+        fetch('WediahEmmanuelresume.docx').then(response => {
+            response.blob().then(blob => {
+
+                const fileURL = window.URL.createObjectURL(blob);
+
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'WediahEmmanuelresume.docx';
+                alink.click();
+            })
+        })
+    }
+
 	return (
-        <nav className=" shadow-lg fixed w-full z-10 bg-white">
+        <nav className=" shadow-lg fixed w-full z-10 bg-white dark:bg-gray-800 dark:text-white">
             <div className="w-full">
                 <div className="flex items-center h-20 w-full">
                     <div className="flex items-center  mx-20  justify-between w-full">
@@ -21,7 +40,7 @@ function Navbar () {
                             </h1>
                         </div>
                         <div className="hidden md:block">
-                            <div className="ml-10 flex items-baseline space-x-4">
+                            <div className="ml-10 flex items-baseline space-x-4 ">
                                 
                                 <Link
                                     activeClass="home"
@@ -29,7 +48,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium"
+                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium dark:text-white"
                                 >
                                     Home
                                 </Link>
@@ -39,7 +58,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium"
+                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium dark:text-white"
                                 >
                                     Skills
                                 </Link>
@@ -49,7 +68,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium"
+                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium dark:text-white"
                                 >
                                     Services
                                 </Link>
@@ -59,7 +78,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium"
+                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium dark:text-white"
                                 >
                                     Portfolio
                                 </Link>
@@ -69,7 +88,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer  text-black hover:text-cyan-600 px-3 py-2 rounded-md text-sm font-medium"
+                                    className="cursor-pointer  text-black hover:text-cyan-600 px-3 py-2 rounded-md text-sm font-medium dark:text-white"
                                 >
                                     Experiences
                                 </Link>
@@ -80,22 +99,26 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer  text-black hover:text-cyan-600 px-3 py-2 rounded-md text-sm font-medium"
+                                    className="cursor-pointer  text-black hover:text-cyan-600 px-3 py-2 rounded-md text-sm font-medium dark:text-white"
                                 >
                                     Contact
                                 </Link>
-                                <a className="cursor-pointer bg-cyan-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-black" href="">Download my resume</a>
+                                <a onClick={onButtonClick} className="cursor-pointer bg-cyan-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-black" href="">Download my resume</a>
+
                             </div>
+                            
                         </div>
+                        
                     </div>
                     <div className="mr-10 flex md:hidden ">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             type="button"
-                            className=" inline-flex items-center justify-center p-2 rounded-md text-black  hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-white"
+                            className=" inline-flex items-center justify-center p-2 rounded-md text-black  dark:text-white font-bold hover:text-cyan-500 focus:outline-none "
                             aria-controls="mobile-menu"
                             aria-expanded="false"
                         > 
+                        
                             <span className="sr-only">Open main menu</span>
                             {!isOpen ? (
                                 <svg
@@ -131,6 +154,7 @@ function Navbar () {
                                 </svg>
                             )}
                         </button>
+
                     </div>
                 </div>
             </div>
@@ -148,7 +172,7 @@ function Navbar () {
                     <div className="md:hidden" id="mobile-menu">
                         <div
                             ref={ref}
-                            className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3"
+                            className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 dark:bg-gray-800 "
                         >   
                             
                             <Link
@@ -158,7 +182,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center"
+                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
                             >
                                 Home
                             </Link>
@@ -169,7 +193,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center"
+                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
                             >
                                 Skills
                             </Link>
@@ -180,7 +204,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center"
+                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
                             >
                                 Services
                             </Link>
@@ -191,7 +215,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center"
+                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
                             >
                                 Portfolio
                             </Link>
@@ -202,7 +226,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center"
+                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
                             >
                                 Experiences
                             </Link>
@@ -214,7 +238,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center"
+                                className="cursor-pointer hover:bg-cyan-500 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center dark:text-white"
                             >
                                 Contact
                             </Link>
