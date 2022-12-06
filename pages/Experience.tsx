@@ -1,10 +1,5 @@
 import React from "react"
-import { Transition } from '@headlessui/react'
-import { Link } from "react-scroll"
-import Image from "next/image";
 import { Element } from 'react-scroll'
-import website from "../public/website.png"
-import developer from "../public/developer.png"
 import {GoPrimitiveDot} from 'react-icons/go'
 
 function Experience () {

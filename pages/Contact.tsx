@@ -1,13 +1,11 @@
 import React, { useState } from "react"
 import { Element } from 'react-scroll'
-import {FaLocationArrow} from 'react-icons/fa'
 import Image from "next/image";
 import location from '../public/cursor.png'
 import mail from '../public/email.png'
 import call from '../public/phone-call.png'
 import {FiGithub, FiInstagram, FiTwitter} from 'react-icons/fi'
 import {AiOutlineLinkedin, AiOutlineWhatsApp} from 'react-icons/ai'
-import { DarkModeSwitch } from 'react-toggle-dark-mode'
 
 
 
