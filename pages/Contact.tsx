@@ -73,8 +73,8 @@ function Contact () {
                     <a href="https://twitter.com/WediahE"><FiTwitter className="hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
                     <a href="https://wa.me/message/DGI7R7QWOUTAJ1"><AiOutlineWhatsApp className="hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
                 </div>
-                <div className="text-center pb-2  font-medium text-md">2022 © Wediah Emmanuel. All rights reserved.</div>
-                <div className="text-md font-bold text-center pb-5 ">theme<DarkModeSwitch checked={isDarkMode} onChange={toggleDarkMode} className='inline ml-2'/></div>
+                <div className="text-center pb-5  font-medium text-md">2022 © Wediah Emmanuel. All rights reserved.</div>
+                {/*<div className="text-md font-bold text-center pb-5 ">theme<DarkModeSwitch checked={isDarkMode} onChange={toggleDarkMode} className='inline ml-2'/></div>*/}
                 
 
             </div>
