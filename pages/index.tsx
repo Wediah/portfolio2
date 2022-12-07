@@ -5,7 +5,7 @@ import Landing from './Landing'
 import Portfolio from './portfolio'
 import Skill from './skill'
 import Experience from './Experience'
-import Contact from './contact'
+import Contact from './Contact'
 import { useState } from 'react'
 
 
