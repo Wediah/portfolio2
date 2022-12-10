@@ -32,10 +32,19 @@ function Navbar () {
                     <div className="flex items-center  mx-20  justify-between w-full">
                         <div className="flex justify-center items-center flex-shrink-0 ">
                             
-                            <h1 className=" font-bold text-xl cursor-pointer -ml-12 font-Zen Dots">
+                            <Link
+                                activeClass="home"
+                                to="home"
+                                smooth={true}
+                                offset={50}
+                                duration={500}
+                            >
+                              <h1 className=" font-bold text-xl cursor-pointer -ml-12 font-Zen Dots">
                                 <span className="">Wediah</span>
                                 <span className="text-cyan-500">Emmanuel</span>
-                            </h1>
+                            </h1>  
+                            </Link>
+                            
                         </div>
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4 ">
