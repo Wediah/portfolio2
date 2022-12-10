@@ -50,16 +50,6 @@ function Navbar () {
                             <div className="ml-10 flex items-baseline space-x-4 ">
                                 
                                 <Link
-                                    activeClass="home"
-                                    to="home"
-                                    smooth={true}
-                                    offset={50}
-                                    duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium dark:text-white"
-                                >
-                                    Home
-                                </Link>
-                                <Link
                                     activeClass="skill"
                                     to="skill"
                                     smooth={true}
