@@ -9,12 +9,17 @@ import Contact from './Contact'
 import { useState } from 'react'
 
 
+
 export default function Home() {
   const [isDarkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = (checked: boolean) => {
     setDarkMode(checked);
   };
+
+  
+
+  
 
   return (
     <div className={isDarkMode ? "dark" : ""}>
@@ -25,15 +30,25 @@ export default function Home() {
       </Head>
 
       <main className='bg-white dark:bg-gray-900'>
+      
         <Navbar/>
         <Landing/>
+        
         <Skill/>
+        
         <Services/>
+
         <Portfolio />
+        
         <Experience />
+
         <Contact />
+        
       </main>
 
     </div>
   )
+
+  
 }
+
