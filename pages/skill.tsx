@@ -18,7 +18,7 @@ import typescript from '../assets/typescript.svg'
 import figma from '../assets/figma.svg'
 import photo from '../assets/photo.svg'
 import xd from '../assets/xd.svg'
-import motion from 'framer-motion'
+import { animateScroll } from "react-scroll";
 
 function Skill() {
     const scrollRef = useRef(null)
