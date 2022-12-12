@@ -18,14 +18,14 @@ import typescript from '../assets/typescript.svg'
 import figma from '../assets/figma.svg'
 import photo from '../assets/photo.svg'
 import xd from '../assets/xd.svg'
-import { animateScroll } from "react-scroll";
+
 
 function Skill() {
-    const scrollRef = useRef(null)
+    
 
 
     return (
-        <Element id="skill" name="skill" ref={scrollRef} style={{ overflow: "scroll"}}>
+        <Element id="skill" name="skill" >
             
             <div className="in-h-screen px-10 dark:text-white">
             <h4 className="text-4xl font-bold pt-40 text-center">Skills</h4>
