@@ -7,7 +7,7 @@ import Skill from './skill'
 import Experience from './Experience'
 import Contact from './Contact'
 import { useState } from 'react'
-import React from 'react'
+import React, { Component} from 'react'
 
 
 
