@@ -4,6 +4,7 @@ import { Element } from 'react-scroll'
 import inter1 from '../public/inter1.png'
 import inter2 from '../public/inter 2.png'
 import inter3 from '../public/08th Nov.png'
+import tour from '../public/tour.png'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 
 import eng from '../public/eng.png'
@@ -38,7 +39,14 @@ function Portfolio () {
 
                      <h3 className="font-medium text-2xl">Web</h3>
                      <h3 className="font-medium text-md dark:text-gray-200">Modern Website</h3>
-                     <a href="https://www.engecgroup.xyz/" ><button className="flex text-sm mt-4 bg-gray-100 p-2 rounded-full dark:bg-gray-800">View website <AiOutlineArrowRight className="text-xl ml-2"/> </button></a>
+                     <a href="https://www.engecgroup.xyz/" ><button className="flex text-sm mt-4 bg-gray-100 p-2 rounded-full dark:bg-gray-800">Live demo<AiOutlineArrowRight className="text-xl ml-2"/> </button></a>
+                    </div>
+                    <div className="basis-1/3 flex-1 ">
+                     <Image alt=""  src={tour} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
+
+                     <h3 className="font-medium text-2xl">Web</h3>
+                     <h3 className="font-medium text-md dark:text-gray-200">Modern Website</h3>
+                     <a href="https://tourismpage.vercel.app/" ><button className="flex text-sm mt-4 bg-gray-100 p-2 rounded-full dark:bg-gray-800">Live Demo<AiOutlineArrowRight className="text-xl ml-2"/> </button></a>
                     </div>
                 </div>
                 
