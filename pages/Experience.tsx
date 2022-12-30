@@ -22,7 +22,7 @@ function Experience () {
                         <h3 className="text-sm font-semibold pt-4">Responsibility</h3>
                         <h5 className="flex text-md pt-1 dark:text-gray-200"> <GoPrimitiveDot className="text-xl text-center dark:text-gray-200"/>Maintaining code. </h5>
                         <h5 className="flex text-md pt-1 dark:text-gray-200"> <GoPrimitiveDot className="text-xl text-center dark:text-gray-200"/>Designing and redesigning interfaces. </h5>
-                        <h5 className="flex text-md pt-1 dark:text-gray-200"> <GoPrimitiveDot className="text-xl text-center dark:text-gray-200"/>Testing and debugging bugs in website. </h5>
+                        <h5 className="flex text-md pt-1 dark:text-gray-200"> <GoPrimitiveDot className="text-xl text-center dark:text-gray-200"/>Testing and debugging websites. </h5>
                     </div>
                 </div>
 

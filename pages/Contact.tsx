@@ -7,8 +7,6 @@ import call from '../public/phone-call.png'
 import {FiGithub, FiInstagram, FiTwitter} from 'react-icons/fi'
 import {AiOutlineLinkedin, AiOutlineWhatsApp} from 'react-icons/ai'
 
-
-
 function Contact () {
     const [isDarkMode, setDarkMode] = useState(false);
 
