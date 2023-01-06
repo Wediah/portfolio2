@@ -26,39 +26,39 @@ function Contact () {
                 <h3 className="text-md font-light  text-center">Get in touch with me</h3>
                 <div className=" gap-10 lg:flex pt-10">
                     
-                    <div className=" shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 bg-gray-100 dark:bg-gray-800">
+                    <div className="group/edit shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 bg-gray-100 dark:bg-gray-800">
                         <Image  
                         src={location}
                         alt=""
                         width={100}
                         height={70}
-                        className="mx-auto  outline" 
+                        className="mx-auto  outline group-hover/edit:scale-125 duration-300 delay-150" 
                         />
                         
                         <h3 className="pt-8 pb-2 text-3xl font-bold">Address</h3>
                         <h4 className="text-md font-semi-bold dark:text-gray-200">Accra, Ghana</h4>
                     </div>
                     
-                    <div className="shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 bg-gray-100 dark:bg-gray-800">
+                    <div className="group/edit shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 bg-gray-100 dark:bg-gray-800">
                     <Image  
                         src={mail}
                         alt=""
                         width={100}
                         height={70}
-                        className="mx-auto" 
+                        className="mx-auto group-hover/edit:scale-125 duration-300 delay-150" 
                         />
                         
                         <h3 className="pt-8 pb-2 text-3xl font-bold">Email</h3>
                         <a href="mailto:emmanuelwediah@gmail.com"><h4 className="text-md font-semi-bold dark:text-gray-200">emmanuelwediah@gmail.com</h4></a>
                     </div>
-                    <div className="shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 bg-gray-100 dark:bg-gray-800">
+                    <div className="group/edit shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 bg-gray-100 dark:bg-gray-800">
                         
                     <Image  
                         src={call}
                         alt=""
                         width={100}
                         height={70}
-                        className="mx-auto" 
+                        className="mx-auto group-hover/edit:scale-125 duration-300 delay-150" 
                         />
                         
                         <h3 className="pt-8 pb-2 text-3xl font-bold">Phone</h3>
