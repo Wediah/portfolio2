@@ -8,7 +8,7 @@ import tour from '../public/tour.png'
 import ad from '../public/ad.png'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 
-import eng from '../public/eng.png'
+import eng from '../public/engecup.png'
 
 function Portfolio () {
     return (
