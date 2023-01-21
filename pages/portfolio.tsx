@@ -7,6 +7,8 @@ import inter3 from '../public/08th Nov.png'
 import tour from '../public/tour.png'
 import ad from '../public/ad.png'
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 import eng from '../public/engecup.png'
 
