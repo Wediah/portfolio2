@@ -6,9 +6,10 @@ import Portfolio from './portfolio'
 import Skill from './skill'
 import Experience from './Experience'
 import Contact from './Contact'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import React, { Component} from 'react'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
@@ -19,7 +20,9 @@ export default function Home() {
     setDarkMode(checked);
   };
 
-  
+  useEffect(()=>{
+    AOS.init({once: true, duration: 1000});
+  },[])
 
   
 
