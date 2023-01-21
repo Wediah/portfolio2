@@ -3,8 +3,19 @@ import Image from "next/image";
 import { Element } from 'react-scroll'
 import website from "../public/website.png"
 import developer from "../public/developer.png"
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 function Services () {
+
+    useEffect(()=>{
+        AOS.init({offset: 200,
+          duration: 600,
+          easing: 'ease-in-sine',
+          delay: 100,});
+      },[])
+      
     return (
         <Element id="services" name="services">
             <div className="min-h-screen px-10 dark:text-white " >
