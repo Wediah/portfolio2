@@ -21,7 +21,10 @@ export default function Home() {
   };
 
   useEffect(()=>{
-    AOS.init({once: true, duration: 1000});
+    AOS.init({offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,});
   },[])
 
   

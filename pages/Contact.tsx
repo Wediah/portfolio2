@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Element } from 'react-scroll'
 import Image from "next/image";
 import location from '../public/cursor.png'
@@ -6,7 +6,8 @@ import mail from '../public/email.png'
 import call from '../public/phone-call.png'
 import {FiGithub, FiInstagram, FiTwitter} from 'react-icons/fi'
 import {AiOutlineLinkedin, AiOutlineWhatsApp} from 'react-icons/ai'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Contact () {
     const [isDarkMode, setDarkMode] = useState(false);
@@ -15,18 +16,24 @@ function Contact () {
         setDarkMode(checked);
     };
     
+    useEffect(()=>{
+        AOS.init({offset: 200,
+          duration: 600,
+          easing: 'ease-in-sine',
+          delay: 100,});
+      },[])
     
 
     return(
-
+        
         
         <Element id='contact' name='contact'>
-            <div className="min-h-screen px-10 dark:text-white">
+            <div data-aos='fade-up' className="min-h-screen px-10 dark:text-white">
                 <h4 className="text-4xl font-bold pt-40 text-center">Contact Me</h4>
                 <h3 className="text-md font-light  text-center">Get in touch with me</h3>
-                <div className=" gap-10 lg:flex pt-10">
+                <div  className=" gap-10 lg:flex pt-10">
                     
-                    <div className="group/edit shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 bg-gray-100 dark:bg-gray-800">
+                    <div  className="group/edit shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 bg-gray-100 dark:bg-gray-800">
                         <Image  
                         src={location}
                         alt=""
