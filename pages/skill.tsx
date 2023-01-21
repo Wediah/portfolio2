@@ -1,4 +1,4 @@
-import React, { useRef } from "react"
+import React, { useEffect } from "react"
 import { Transition } from '@headlessui/react'
 import { Link } from "react-scroll"
 import Image from "next/image";
@@ -18,10 +18,17 @@ import typescript from '../assets/typescript.svg'
 import figma from '../assets/figma.svg'
 import photo from '../assets/photo.svg'
 import xd from '../assets/xd.svg'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Skill() {
-    
+
+    useEffect(()=>{
+        AOS.init({offset: 200,
+          duration: 600,
+          easing: 'ease-in-sine',
+          delay: 100,});
+      },[])   
 
 
     return (
