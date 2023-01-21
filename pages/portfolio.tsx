@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect} from "react"
 import Image from "next/image";
 import { Element } from 'react-scroll'
 import inter1 from '../public/inter1.png'
@@ -13,10 +13,18 @@ import 'aos/dist/aos.css'
 import eng from '../public/engecup.png'
 
 function Portfolio () {
+
+    useEffect(()=>{
+        AOS.init({offset: 200,
+          duration: 600,
+          easing: 'ease-in-sine',
+          delay: 100,});
+      },[])
+
     return (
         <Element id="portfolio" name="portfolio">
             
-            <div className="min-h-screen px-10 dark:text-white">
+            <div data-aos='zoom-in' className="min-h-screen px-10 dark:text-white">
              <h4 className="text-4xl font-bold pt-40 text-center">Portifolio</h4>
              <h3 className="text-md font-light  text-center">What I have done</h3>
                 <div className="flex flex-col py-10 gap-10 lg:flex-row lg:flex-wrap">
