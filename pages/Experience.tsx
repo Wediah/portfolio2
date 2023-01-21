@@ -5,6 +5,14 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 function Experience () {
+
+    useEffect(()=>{
+        AOS.init({offset: 200,
+          duration: 600,
+          easing: 'ease-in-sine',
+          delay: 100,});
+      },[])
+      
     return(
         <Element id='experence' name='experience'>
             <div className="min-h-screen px-10 dark:text-white">
