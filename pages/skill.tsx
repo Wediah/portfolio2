@@ -35,11 +35,11 @@ function Skill() {
         <Element id="skill" name="skill" >
             
             <div className="in-h-screen px-10 dark:text-white">
-            <h4 className="text-4xl font-bold pt-40 text-center">Skills</h4>
-            <h3  className="text-md font-light  text-center ">What I can do</h3>
+            <h4 data-aos='fade-up' className="text-4xl font-bold pt-40 text-center">Skills</h4>
+            <h3 data-aos='fade-up' className="text-md font-light  text-center ">What I can do</h3>
             <div className="gap-5 lg:flex">
-                <div className="p-10  my-10 lg:w-3/5">
-                    <div  className="flex justify-center  text-md font-bold pb-5"> <HiCodeBracket className="text-2xl mr-2"/>   
+                <div data-aos='zoom-out' className="p-10  my-10 lg:w-3/5">
+                    <div className="flex justify-center  text-md font-bold pb-5"> <HiCodeBracket className="text-2xl mr-2"/>   
                     Frontend Development</div>
                     <div className="flex justify-center flex-wrap gap-5 mt-5 lg:flex-row lg:flex-wrap">
                        <div className="text-center dark:bg-gray-800 bg-gray-100 p-10 rounded-full group/edit"> 
@@ -67,7 +67,7 @@ function Skill() {
                         <span className="text-sm text-gray-500">Intermediate</span> </div>
                     </div>
                 </div>
-                <div className="p-10 my-10 lg:w-3/5">
+                <div data-aos='zoom-in' className="p-10 my-10 lg:w-3/5">
                     <div className="flex justify-center text-md font-bold pb-5"> <MdWeb className="text-2xl mr-2"/>   
                     UX Design</div>
                     <div className="flex justify-center flex-wrap gap-5 mt-5 lg:flex-row lg:flex-wrap">
