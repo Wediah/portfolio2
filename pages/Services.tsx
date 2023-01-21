@@ -15,10 +15,10 @@ function Services () {
           easing: 'ease-in-sine',
           delay: 100,});
       },[])
-      
+
     return (
         <Element id="services" name="services">
-            <div className="min-h-screen px-10 dark:text-white " >
+            <div data-aos='fade-up' className="min-h-screen px-10 dark:text-white " >
                 <h4 className="text-4xl font-bold pt-40 text-center">Services</h4>
                 <h3 className="text-md font-light  text-center">What I offer</h3>
                 <div className=" gap-10 lg:flex pt-10">
