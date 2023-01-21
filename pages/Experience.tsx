@@ -1,6 +1,8 @@
-import React from "react"
+import React, {useEffect} from "react"
 import { Element } from 'react-scroll'
 import {GoPrimitiveDot} from 'react-icons/go'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Experience () {
     return(
