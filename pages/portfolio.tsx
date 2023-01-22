@@ -34,18 +34,14 @@ function Portfolio () {
                         <h3 className="font-medium text-2xl">UX/UI Design</h3>
                         <h3 className="font-medium text-md dark:text-gray-200">Modern Website</h3>
                     </div>
-                    <div className="basis-1/3 flex-1">
-                        <Image alt=""  src={inter2} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
-
-                        <h3 className="font-medium text-2xl">UX/UI Design</h3>
-                        <h3 className="font-medium text-md dark:text-gray-200">Modern Website</h3>
-                    </div>
+                    
                     <div className="basis-1/3 flex-1">
                         <Image alt=""  src={inter3} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
                         
                         <h3 className="font-medium text-2xl">UX/UI Design</h3>
                         <h3 className="font-medium text-md dark:text-gray-200">Ecommerce shop</h3>
                     </div>
+                    
                     <div className="basis-1/3 flex-1 ">
                      <Image alt=""  src={eng} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
 
