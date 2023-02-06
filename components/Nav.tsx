@@ -100,7 +100,7 @@ function Navbar () {
                                 >
                                     Contact
                                 </Link>
-                                <a onClick={onButtonClick} className="cursor-pointer bg-cyan-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-black" href="">Download my resume</a>
+                                <a onClick={onButtonClick} className="cursor-pointer bg-cyan-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-black hover:text-cyan-600" href="">Download my resume</a>
 
                             </div>
                             
