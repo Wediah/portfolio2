@@ -16,7 +16,7 @@ function Experience () {
 
     return(
         <Element id='experence' name='experience'>
-            <div data-aos='fade-up' className="min-h-screen px-10 dark:text-white">
+            <div data-aos='fade-up' className="min-h-screen px-10 cursor-default dark:text-white">
                 <h4 className="text-4xl font-bold pt-40 text-center">Experiences</h4>
                 <h3 className="text-md font-light  text-center">What I have participated in</h3>
                 <div className=" gap-10 lg:flex pt-10">
