@@ -35,7 +35,7 @@ function Skill() {
     return (
         <Element id="skill" name="skill" >
             
-            <div className="in-h-screen px-10 dark:text-white">
+            <div className="in-h-screen px-10 dark:text-white cursor-default">
             <h4 data-aos='fade-up' className="text-4xl font-bold pt-40 text-center">Skills</h4>
             <h3 data-aos='fade-up' className="text-md font-light  text-center ">What I can do</h3>
             <div className="gap-5 lg:flex">
