@@ -26,7 +26,7 @@ function Portfolio () {
     return (
         <Element id="portfolio" name="portfolio">
             
-            <div data-aos='zoom-in' className="min-h-screen px-10 dark:text-white">
+            <div data-aos='zoom-in' className="min-h-screen px-10 dark:text-white cursor-default">
              <h4 className="text-4xl font-bold pt-40 text-center">Portifolio</h4>
              <h3 className="text-md font-light  text-center">What I have done</h3>
                 <div className="flex flex-col py-10 gap-10 lg:flex-row lg:flex-wrap">
