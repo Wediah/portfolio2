@@ -23,7 +23,7 @@ function Landing () {
 
     return (
         <Element id="home" name="home">
-            <div className="min-h-screen px-10 " >
+            <div className="min-h-screen px-10 cursor-default" >
                 <h1 className="pt-60 md:pt-80 text-4xl font-bold pb-4 md:text-6xl dark:text-white">
                     Hi, there! <br />
                     I&apos;m Emmanuel Wediah, a <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 animate_animated animate_bounce ">UI/UX designer</span> and a <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 ">Front-end Engineer</span>. <br />
