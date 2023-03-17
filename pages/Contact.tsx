@@ -29,7 +29,7 @@ function Contact () {
         
         
         <Element id='contact' name='contact'>
-            <div data-aos='zoom-in' className="min-h-screen px-10 cursor-default dark:text-white">
+            <div data-aos='fade-up' className="min-h-screen px-10 cursor-default dark:text-white">
                 <h4 className="text-4xl font-bold pt-40 text-center">Contact Me</h4>
                 <h3 className="text-md font-light  text-center">Get in touch with me</h3>
                 <div  className=" gap-10 lg:flex pt-10">
