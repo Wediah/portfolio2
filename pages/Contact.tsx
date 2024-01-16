@@ -29,7 +29,7 @@ function Contact () {
         
         
         <Element id='contact' name='contact'>
-            <div data-aos='fade-up' className="min-h-screen px-10 cursor-default dark:text-white">
+            <div  className="min-h-screen px-10 cursor-default dark:text-white">
                 <h4 className="text-4xl font-bold pt-40 text-center">Contact Me</h4>
                 <h3 className="text-md font-light  text-center">Get in touch with me</h3>
                 <div  className=" gap-10 lg:flex pt-10">
@@ -83,7 +83,7 @@ function Contact () {
                     <a href="https://wa.me/message/DGI7R7QWOUTAJ1"><AiOutlineWhatsApp className="hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
                 </div>
                 <div className="text-center pb-5  font-medium text-md">2022 © Wediah Emmanuel. All rights reserved.</div>
-                {/*<div className="text-md font-bold text-center pb-5 ">theme<DarkModeSwitch checked={isDarkMode} onChange={toggleDarkMode} className='inline ml-2'/></div>*/}
+                {/* <div className="text-md font-bold text-center pb-5 ">theme<DarkModeSwitch checked={isDarkMode} onChange={toggleDarkMode} className='inline ml-2'/></div> */}
                 
 
             </div>
