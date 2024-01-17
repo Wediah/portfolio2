@@ -29,7 +29,7 @@ function Landing () {
                     I&apos;m Emmanuel Wediah, a <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 animate_animated animate_bounce ">UI/UX designer</span> and a <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 ">Front-end Engineer</span>. <br />
                 </h1>
                 <h2 className="font-bold text-slate-500 pb-4 text-md md:text-xl dark:text-slate-200">
-                    I&apos;m passionate about helping brands bring imaginations to life right from the capital of Ghana, Accra. <br />
+                    I&apos;m passionate about helping brands bring imaginations to life, right from the capital of Ghana, Accra. <br />
                 </h2>
 
                 <button type="button" onClick={onButtonClick} className="bg-cyan-500 p-3 rounded-xl font-bold text-white md:hidden">Download my resume</button>
