@@ -35,6 +35,14 @@ function Experience () {
                         <h5 className="flex text-md pt-1 dark:text-gray-200"> <GoPrimitiveDot className="text-xl text-center dark:text-gray-200"/>Designing and redesigning interfaces. </h5>
                         <h5 className="flex text-md pt-1 dark:text-gray-200"> <GoPrimitiveDot className="text-xl text-center dark:text-gray-200"/>Testing and debugging websites. </h5>
                     </div>
+                    <div className="shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 bg-gray-100 dark:bg-gray-800">
+                    <h4 className="text-2xl font-semibold">Back-end Developer - Intern at <a href="http://insti.csir.org.gh/"><span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">POYNT TEHNOLOGIES LIMITED</span></a></h4>
+                        <h3 className="text-md font-bold text-cyan-400 pt-2">Oct 2023 - Nov 2023</h3>
+                        <h3 className="text-sm font-semibold pt-4">Responsibility</h3>
+                        <h5 className="flex text-md pt-1 dark:text-gray-200"> <GoPrimitiveDot className="text-xl text-center dark:text-gray-200"/>Learning of Laravel. </h5>
+                        <h5 className="flex text-md pt-1 dark:text-gray-200"> <GoPrimitiveDot className="text-xl text-center dark:text-gray-200"/>Using the MVC architecture in the devlopment of appliation. </h5>
+                        <h5 className="flex text-md pt-1 dark:text-gray-200"> <GoPrimitiveDot className="text-xl text-center dark:text-gray-200"/>Creating APIs. </h5>
+                    </div>
                 </div>
 
             </div>

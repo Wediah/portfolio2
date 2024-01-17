@@ -8,6 +8,7 @@ import {FiGithub, FiInstagram, FiTwitter} from 'react-icons/fi'
 import {AiOutlineLinkedin, AiOutlineWhatsApp} from 'react-icons/ai'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { DarkModeSwitch } from "react-toggle-dark-mode";
 
 function Contact () {
     const [isDarkMode, setDarkMode] = useState(false);
@@ -82,7 +83,7 @@ function Contact () {
                     <a href="https://twitter.com/WediahE"><FiTwitter className="hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
                     <a href="https://wa.me/message/DGI7R7QWOUTAJ1"><AiOutlineWhatsApp className="hover:transition hover:-translate-y-2 duration-300 delay-150"/></a>
                 </div>
-                <div className="text-center pb-5  font-medium text-md">2022 © Wediah Emmanuel. All rights reserved.</div>
+                <div className="text-center pb-5  font-medium text-md">2022 - 2024 © Wediah Emmanuel. All rights reserved.</div>
                 {/* <div className="text-md font-bold text-center pb-5 ">theme<DarkModeSwitch checked={isDarkMode} onChange={toggleDarkMode} className='inline ml-2'/></div> */}
                 
 
