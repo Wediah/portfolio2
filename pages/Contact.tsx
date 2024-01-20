@@ -38,7 +38,7 @@ function Contact () {
                     <div  className="group/edit shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 bg-gray-100 dark:bg-gray-800">
                         <Image  
                         src={location}
-                        alt=""
+                        alt="location"
                         width={100}
                         height={70}
                         className="mx-auto  outline group-hover/edit:scale-125 duration-300 delay-150" 
@@ -51,7 +51,7 @@ function Contact () {
                     <div className="group/edit shadow-2xl rounded-3xl text-center p-10 my-10 flex-1 bg-gray-100 dark:bg-gray-800">
                     <Image  
                         src={mail}
-                        alt=""
+                        alt="emiail"
                         width={100}
                         height={70}
                         className="mx-auto group-hover/edit:scale-125 duration-300 delay-150" 
@@ -64,7 +64,7 @@ function Contact () {
                         
                     <Image  
                         src={call}
-                        alt=""
+                        alt="phone"
                         width={100}
                         height={70}
                         className="mx-auto group-hover/edit:scale-125 duration-300 delay-150" 
