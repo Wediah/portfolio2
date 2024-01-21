@@ -11,7 +11,7 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-import eng from '../public/engecup.png'
+import eng from '../public/arch.png'
 
 function Portfolio () {
 
@@ -39,13 +39,13 @@ function Portfolio () {
                      <h3 className="font-medium text-md dark:text-gray-200">Modern Website</h3>
                      <a href="https://jenniferkofi.vercel.app/" ><button className="group/edit flex text-sm mt-4 bg-gray-100 p-2 rounded-full dark:bg-gray-800 ">Live Demo<AiOutlineArrowRight className="text-xl ml-2 group-hover/edit:translate-x-2.5"/> </button></a>
                     </div>
-                    {/* <div className="basis-1/3 flex-1 ">
+                    <div className="basis-1/3 flex-1 ">
                      <Image alt=""  src={eng} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
 
                      <h3 className="font-medium text-2xl">Web</h3>
                      <h3 className="font-medium text-md dark:text-gray-200">Modern Website</h3>
-                     <a href="https://www.engecgroup.xyz/" ><button className="group/edit flex text-sm mt-4 bg-gray-100 p-2 rounded-full dark:bg-gray-800">Live demo<AiOutlineArrowRight className="text-xl ml-2 group-hover/edit:translate-x-2.5"/> </button></a>
-                    </div> */}
+                     <a href="https://www.archadiastudios.com/" ><button className="group/edit flex text-sm mt-4 bg-gray-100 p-2 rounded-full dark:bg-gray-800">Live demo<AiOutlineArrowRight className="text-xl ml-2 group-hover/edit:translate-x-2.5"/> </button></a>
+                    </div>
                     <div className="basis-1/3 flex-1 ">
                      <Image alt=""  src={tour} className="rounded-lg object-cover" width={'100'} height={'100'} layout="responsive"/>
 
